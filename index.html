@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="my">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forgive Me, Baby? 💗</title>
+<style>
+:root{--pink:#ff789b;--deep:#d94e79;--pale:#fff0f4;--ink:#593847}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:system-ui,-apple-system,"Noto Sans Myanmar",sans-serif;color:var(--ink);
+background:radial-gradient(circle at 10% 10%,#ffe0e9,transparent 34%),linear-gradient(145deg,#fff7fa,#ffdce7 55%,#fff1f5);
+display:grid;place-items:center;padding:18px}
+.card{width:min(100%,460px);background:#ffffffd9;border:1px solid #fff;border-radius:28px;padding:28px 22px 24px;text-align:center;box-shadow:0 18px 55px #b34d7022;position:relative;overflow:hidden}
+.hearts{font-size:25px;letter-spacing:9px;color:#f36e96}
+.cat{font-size:64px;line-height:1.4;filter:drop-shadow(0 5px 2px #d47b8b22)}
+h1{font-size:clamp(28px,7vw,38px);margin:8px 0;color:var(--deep)}
+p{line-height:1.9;font-size:16px;white-space:pre-line}
+.small{font-size:13px;opacity:.72}
+button{font:inherit;cursor:pointer;border:0;border-radius:999px;padding:13px 19px;margin:7px;background:var(--pink);color:white;font-weight:700;box-shadow:0 5px 0 #d85e83;transition:transform .15s}
+button:active{transform:translateY(3px);box-shadow:0 2px 0 #d85e83}
+button.secondary{background:#fff;color:#9d6578;border:1px solid #f3b5c7;box-shadow:0 4px 0 #f3d1dc}
+.screen{display:none;animation:pop .35s ease}.screen.active{display:block}
+@keyframes pop{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.note{background:#fff4f7;border:1px dashed #f1a9c0;border-radius:18px;padding:15px;margin:15px 0}
+footer{font-size:12px;opacity:.6;margin-top:18px}
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="hearts">♡ ♥ ♡</div>
+  <section class="screen active" id="s0">
+    <div class="cat">🐱💗</div>
+    <h1>Forgive Me, Baby?</h1>
+    <p>ကိုယ့်ရဲ့ အချစ်ဆုံးကောင်မလေးအတွက်<br>စာလေးတစ်စောင်ပါ… 🥺</p>
+    <button onclick="show(1)">💌 ဖွင့်ကြည့်မယ်</button>
+  </section>
+  <section class="screen" id="s1">
+    <div class="cat">🥺🫶🏻</div><h1>Baby ရေ…</h1>
+    <p>ကိုယ်တကယ်တောင်းပန်ပါတယ်။
+ရန်ကုန်မပြန်ဘူးဆိုပြီး ကိုယ်စိတ်ဆိုးခဲ့တာ
+ကိုယ်မှားသွားတယ်ဆိုတာ သိပါတယ်။
+
+ကိုယ်က ဇွတ်ပြန်ခိုင်းမိတယ်။
+တကယ်တော့ Baby က တစ်ရက်လောက်ပဲ
+ပိုနေချင်တာကို ကိုယ်နားလည်ပေးသင့်တာပါ။</p>
+    <button onclick="show(2)">ဆက်ဖတ်မယ် 💗</button>
+  </section>
+  <section class="screen" id="s2">
+    <div class="cat">🐱🌷</div><h1>ကိုယ်မှားပါတယ်</h1>
+    <p>ကိုယ်စိတ်ဆိုးနေတဲ့အချိန်မှာ
+Baby ဘယ်လိုခံစားရမလဲဆိုတာ
+သေချာမစဉ်းစားမိခဲ့ဘူး။
+
+ကိုယ်ချစ်လို့ စိတ်ပူတာဖြစ်နိုင်ပေမဲ့
+အဲ့ဒါကြောင့် Baby ရဲ့ ဆုံးဖြတ်ချက်ကို
+ဖိအားပေးခွင့်ရှိတာ မဟုတ်ဘူးနော်။
+နောက်တစ်ခါ ပိုနားထောင်ပေးမယ်။</p>
+    <button onclick="show(3)">နောက်တစ်မျက်နှာ 💌</button>
+  </section>
+  <section class="screen" id="s3">
+    <div class="cat">💗🐈</div><h1>တကယ်တောင်းပန်ပါတယ်</h1>
+    <div class="note"><p>Baby ကို အနိုင်ယူချင်တာမဟုတ်ဘူး။
+Baby နဲ့ အဆင်ပြေပြေ ချစ်ချစ်ခင်ခင်
+ရှိနေချင်တာပါ။
+
+ကိုယ့်အမှားကို ချက်ချင်းမေ့ပစ်ဖို့
+မတောင်းဆိုပါဘူး။ စိတ်အေးသွားတဲ့အခါ
+ကိုယ့်ကို စကားပြောခွင့်ပေးပါနော်။ ❤️</p></div>
+    <button onclick="show(4)">နောက်ဆုံးတစ်ခုရှိသေးတယ် 🥹</button>
+  </section>
+  <section class="screen" id="s4">
+    <div class="cat">🐱💞🐱</div><h1>ကိုယ့်ကို ခွင့်လွှတ်ပေးမလား?</h1>
+    <p>စိတ်ဆိုးနေတာ နားလည်ပါတယ်။
+အချိန်လိုရင်လည်း ကိုယ်စောင့်ပေးမယ်။
+ကိုယ်တကယ်ချစ်တယ်နော်။</p>
+    <button onclick="show(5)">💗 ခွင့်လွှတ်ပေးမယ်</button>
+    <button class="secondary" onclick="show(6)">🥺 အချိန်နည်းနည်းလိုသေးတယ်</button>
+  </section>
+  <section class="screen" id="s5">
+    <div class="cat">😭💖🐱</div><h1>ကျေးဇူးပါ Baby!</h1>
+    <p>ကိုယ့်ကို အခွင့်အရေးပေးလို့
+ကျေးဇူးအများကြီးတင်ပါတယ်။
+နောက်တစ်ခါ စိတ်ဆိုးစရာရှိရင်လည်း
+ဇွတ်မလုပ်ဘဲ အရင်နားထောင်ပြီး
+အေးအေးဆေးဆေး ပြောကြမယ်နော်။
+
+ကိုယ် Baby ကို အရမ်းချစ်တယ်။ ❤️</p>
+    <button onclick="show(7)">အချစ်ဆုံးအတွက် နောက်ဆုံးစာ 💌</button>
+  </section>
+  <section class="screen" id="s6">
+    <div class="cat">🐱🫂</div><h1>ရပါတယ် Baby ရေ</h1>
+    <p>စိတ်အေးဖို့ အချိန်ယူပါနော်။
+ကိုယ်အလျင်မလိုပါဘူး။
+အဆင်သင့်ဖြစ်တဲ့အခါ ပြန်ပြောပေးပါ။
+ကိုယ်နားထောင်ဖို့ အသင့်ရှိနေမယ်။
+
+ချစ်တာကတော့ မလျော့ဘူးနော်။ 💗</p>
+    <button onclick="show(7)">နောက်ဆုံးစာလေး 💌</button>
+  </section>
+  <section class="screen" id="s7">
+    <div class="cat">🌙🐱💗🐱🌙</div><h1>Always & Forever</h1>
+    <p>ရန်ဖြစ်တာထက် နားလည်ပေးတာကို
+ပိုရွေးချယ်တတ်တဲ့ ချစ်သူဖြစ်အောင်
+ကိုယ်ကြိုးစားပါမယ်။
+
+Baby ရဲ့ အပြုံးလေးကို ပြန်မြင်ချင်တယ်။
+ကိုယ်မှားခဲ့တာအတွက် ထပ်ပြီးတောင်းပန်ပါတယ်။
+ချစ်တယ်နော်… အများကြီး။ ❤️
+
+— မျိုးသီဟ</p>
+    <button onclick="show(0)">အစကနေ ပြန်ဖတ်မယ် 💞</button>
+  </section>
+  <footer>Made with love, just for you ♡</footer>
+</main>
+<script>
+function show(n){document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));document.getElementById('s'+n).classList.add('active');}
+</script>
+</body>
+</html>
